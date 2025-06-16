@@ -379,21 +379,12 @@ section {
   padding: 6px 0;
 }
 @media screen and (max-width: 768px) {
+  /* Reduce logo strip height to fit smaller logo */
   .logo-strip {
-    height: 120px !important; /* or even 130px — test what looks good with your 120px logo */
+    height: 140px !important;
   }
 
-  .hamburger {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    position: static !important;
-  }
-
-  .hero-slideshow {
-    margin-top: -30px;
-  }
-}
-@media screen and (max-width: 768px) {
+  /* Completely hide contact line from mobile layout */
   .mobile-remove {
     display: none !important;
     position: absolute !important;
@@ -402,5 +393,20 @@ section {
     padding: 0 !important;
     margin: 0 !important;
     overflow: hidden !important;
+    pointer-events: none !important;
+  }
+
+  /* Make sure menu button is visible and properly positioned */
+  .hamburger {
+    display: block !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: static !important;
+    z-index: 9999; /* ensure it appears above all content */
+  }
+
+  /* Tighten spacing between logo and slideshow */
+  .hero-slideshow {
+    margin-top: -30px;
   }
 }
