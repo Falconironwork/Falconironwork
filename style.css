@@ -415,6 +415,7 @@ section {
 
   /* Slightly raise slideshow */
   .hero-slideshow {
-    margin-top: -15px;
+    height: 100vh;
+    margin-top: 0;
   }
 }
