@@ -392,7 +392,7 @@ section {
   }
 
   .nav-logo {
-    height: 180px; /* smaller logo on mobile */
+    height: 120px; /* smaller logo on mobile */
   }
 
   .hamburger {
