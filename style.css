@@ -408,7 +408,7 @@ section {
   .hamburger {
     display: block !important;
     margin-top: -5px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     position: relative;
     z-index: 9999;
   }
