@@ -410,8 +410,3 @@ section {
     top: -200px;
   }
 }
-@media screen and (max-width: 768px) {
-  .hero-slideshow {
-    margin-top: -500px; /* Adjust as needed */
-  }
-}
