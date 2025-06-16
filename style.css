@@ -379,31 +379,18 @@ section {
   padding: 6px 0;
 }
 @media screen and (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
-
-  .hide-on-mobile {
-    display: none;
-  }
-
-  .contact-info {
-    display: none !important;
-  }
-
-  .nav-logo {
-    height: 120px; /* smaller logo on mobile */
+  .logo-strip {
+    height: 140px !important; /* or even 130px — test what looks good with your 120px logo */
   }
 
   .hamburger {
-    display: block;
     margin-top: 5px;
-    margin-bottom: 5px;
-    position: static; /* no float/overlap */
+    margin-bottom: 10px;
+    position: static !important;
   }
 
   .hero-slideshow {
-    margin-top: -40px; /* optional: tightens space above slideshow */
+    margin-top: -30px;
   }
 }
 @media screen and (max-width: 768px) {
