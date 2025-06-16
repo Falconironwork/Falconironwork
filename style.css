@@ -380,7 +380,7 @@ section {
 }
 @media screen and (max-width: 768px) {
   .logo-strip {
-    height: 140px !important; /* or even 130px — test what looks good with your 120px logo */
+    height: 120px !important; /* or even 130px — test what looks good with your 120px logo */
   }
 
   .hamburger {
