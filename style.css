@@ -412,6 +412,6 @@ section {
 }
 @media screen and (max-width: 768px) {
   .hero-slideshow {
-    margin-top: -250px; /* Adjust as needed */
+    margin-top: -500px; /* Adjust as needed */
   }
 }
