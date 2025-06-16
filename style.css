@@ -397,8 +397,8 @@ section {
 
   .hamburger {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     position: static; /* no float/overlap */
   }
 
